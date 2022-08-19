@@ -3,6 +3,10 @@ import logo from './logo.svg'
 import './App.css'
 
 function App() {
+  const [head , setHead] = useState(0)
+  const [tail , setTail] = useState(0)
+
+    
  
 
 
@@ -22,7 +26,10 @@ function App() {
       </div>
     </div>
     <div className="buttons">
-      <button id="flip-button">Flip Coin</button>
+      <button id="flip-button" onClick={()=>{
+        
+        
+      }}>Flip Coin</button>
       <button id="reset-button">Reset</button>
     </div>
     </div>
